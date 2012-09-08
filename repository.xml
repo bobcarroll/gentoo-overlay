@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+	<repo quality="experimental" status="unofficial">
+		<name><![CDATA[rcarz]]></name>
+		<description lang="en"><![CDATA[Mixed ebuilds from various sources: self-written missing ebuilds, more current ebuilds, ebuilds that just needed a slight update from official portage, ebuilds others posted on Gentoo Bugzilla, ebuilds with added patches, old ebuilds that were removed from official portage etc.]]></description>
+		<homepage>http://github.com/rcarz/gentoo-overlay</homepage>
+		<owner type="person">
+			<name><![CDATA[Bob Carroll]]></name>
+			<email>bob.carroll@alum.rit.edu</email>
+		</owner>
+		<source type="git">git://github.com/rcarz/gentoo-overlay.git</source>
+		<feed>http://github.com/rcarz/gentoo-overlay/commits/master.atom</feed>
+	</repo>
+</repositories>
